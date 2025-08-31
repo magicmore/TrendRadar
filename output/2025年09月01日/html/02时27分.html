@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-01 02:27:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">11</td>
+                <td class="percentage">4.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754370" target="_blank" class="news-link">下周重磅日程：九三大阅兵、上合峰会闭幕、美国非农</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1945389764170708856" target="_blank" class="news-link">美国撤销三家在华半导体企业授权，商务部回应「将采取必要措施，坚决维护企业正当权益」，哪些信息值得关注？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mH3RxUQULd" target="_blank" class="news-link">校园枪案频发，美国父母教孩子残酷“生存技能”：屏住呼吸，装死</a> [7] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7543986405727292947/" target="_blank" class="news-link">香港1200架无人机重现日本投降矣</a> [10] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754616" target="_blank" class="news-link">决定关税和美联储命运！特朗普最关键的两场战斗，都将取决于美国高院</a> [10] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31513806" target="_blank" class="news-link">国家文物局：抗战文物无声诉说着日本军国主义惨无人道、令人发指的侵略罪行</a> [11] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1944464829566915284" target="_blank" class="news-link">红警里的动员兵为什么单价比军犬还便宜，而美国大兵才和军犬等价?</a> [18] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7544290325360295978/" target="_blank" class="news-link">美国为何盯上存储芯片</a> [22] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%AD%A6%E8%80%85%EF%BC%9A%E5%AE%A2%E8%A7%82%E8%BF%98%E5%8E%9F%E4%B8%AD%E5%9B%BD%E6%8A%97%E6%88%98%E5%8E%86%E5%8F%B2%E7%9C%9F%E7%9B%B8" target="_blank" class="news-link">日本学者：客观还原中国抗战历史真相</a> [23] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%8C%BB%E7%94%9F%E8%BE%9E%E8%81%8C%E9%A3%8E%E6%B3%A218%E4%B8%AA%E6%9C%88%E5%90%8E%E7%BB%88%E5%B9%B3%E6%81%AF" target="_blank" class="news-link">韩国医生辞职风波18个月后终平息</a> [25] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E8%87%AA%E6%9D%80%E7%8E%87%E4%B8%BA%E4%BD%95%E9%82%A3%E4%B9%88%E9%AB%98" target="_blank" class="news-link">韩国自杀率为何那么高</a> [26] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2130377" target="_blank" class="news-link">AI时代“隐秘赢家”？这类半导体“逆袭”走到聚光灯下</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754611" target="_blank" class="news-link">从GPT-5到DeepSeek V3.1，顶尖AI大模型的新方向出现了！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2131477" target="_blank" class="news-link">价格降至百元级、需求暴涨11倍，人形机器人带动传感器“狂飙”｜聚焦</a> [10] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344617&amp;amp;topic_name=%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%80%9B%E8%A1%97%2C%E5%BC%95%E8%B5%B7%E9%9B%86%E7%BE%8E%E6%88%98%E4%BA%89%E6%80%92%E5%90%BC" target="_blank" class="news-link">机器人逛街,引起集美战争怒吼</a> [24] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754625" target="_blank" class="news-link">硅谷炸雷！xAI创始老哥携机密叛逃OpenAI，马斯克：他上传了整个代码库</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344637&amp;amp;topic_name=%E9%BB%91%E7%A7%91%E6%8A%80%E7%82%B8%E5%9C%BA%3F%E4%B9%9D%E4%B8%89%E9%98%85%E5%85%B5%E8%A3%85%E5%A4%87%E5%A4%A7%E7%8C%9C%E6%83%B3" target="_blank" class="news-link">黑科技炸场?九三阅兵装备大猜想</a> [8] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
