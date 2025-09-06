@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2025-09-06 18:18:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2137450" target="_blank" class="news-link">【早报】证监会发文！拟调降公募基金认购费、申购费等；美国8月非农数据大幅不及预期</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%AA%81%E7%84%B6%E4%B8%8D%E5%A5%BD%E7%8E%A9%E4%BA%86" target="_blank" class="news-link">美国突然不好玩了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mQJa75MU6K" target="_blank" class="news-link">特朗普正式将美国“国防部”改名为“战争部”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2227610" target="_blank" class="news-link">特朗普将美国防部更名战争部</a> [6] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947569046242420676" target="_blank" class="news-link">特朗普签署行政令将美国防部更名为「战争部」，此时更名有哪些意图？</a> [6] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mQfpTE1PN5" target="_blank" class="news-link">特朗普称已决定在美国另一城市部署国民警卫队</a> [7] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%84%E6%96%B9%E8%A6%81%E6%B1%82%E6%97%A5%E6%9C%AC%E5%AE%8C%E5%85%A8%E6%89%BF%E8%AE%A4%E4%BA%8C%E6%88%98%E7%BB%93%E6%9E%9C" target="_blank" class="news-link">俄方要求日本完全承认二战结果</a> [13] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31546809" target="_blank" class="news-link">中国公布首批62位美国籍抗日航空英烈更新信息</a> [13] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">字节 bytedance 张一鸣</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947240995155604521" target="_blank" class="news-link">字节跳动通报辞退 100 人，8 人涉嫌刑事犯罪，具体什么情况？大厂内部的「红线」究竟有哪些？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947263910454465588" target="_blank" class="news-link">特朗普在白宫宴请库克、小扎、奥尔特曼等科技巨头 CEO，马斯克称受邀但遗憾无法参加，哪些信息值得关注？</a> [16] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2137443" target="_blank" class="news-link">AI芯片赛道“黑马”来袭，英伟达4万亿市值红线受威胁</a> [7] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546012587754897418/" target="_blank" class="news-link">特朗普发AI视频把自己加到总统山上</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
