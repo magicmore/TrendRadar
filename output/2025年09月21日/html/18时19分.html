@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 221</p><p>生成时间: 2025-09-21 18:19:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">3.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755973" target="_blank" class="news-link">“H-1B新政”引发混乱！硅谷连夜敦促员工速回美国，白宫紧急“打补丁”：“新老划断”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%BA%E9%98%BB%E6%AD%A2%E5%8D%B0%E7%B1%8D%E5%91%98%E5%B7%A5%E8%BF%94%E7%BE%8E+%E7%BE%8E%E5%9B%BD%E4%BA%BA%E7%BB%84%E5%9B%A2%E6%8A%A2%E7%A5%A8" target="_blank" class="news-link">为阻止印籍员工返美 美国人组团抢票</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mpZCLaUPiL" target="_blank" class="news-link">印媒：美国网民涌向机票预订网站恶意订票，阻止印籍员工返美</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E5%AA%92%E4%BD%93%E9%B8%A6%E9%9B%80%E6%97%A0%E5%A3%B0&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26band_rank%3D4%26dgr%3D0%26stream_entry_id%3D31%26realpos%3D4%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E5%25AA%2592%25E4%25BD%2593%25E9%25B8%25A6%25E9%259B%2580%25E6%2597%25A0%25E5%25A3%25B0%26flag%3D1%26c_type%3D31%26lcate%3D5001%26pos%3D3%26filter_type%3Drealtimehot%26display_time%3D1758449709%26pre_seqid%3D17584497098720235353638" target="_blank" class="news-link">日本媒体鸦雀无声</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952744997553181158" target="_blank" class="news-link">韩国女星全智贤相关代言广告已被撤下，因此前主演韩剧《暴风圈》台词和画面引争议，对其影响有多大？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A5%B3%E7%BD%91%E4%B8%96%E7%95%8C%E6%9D%AF%E6%80%BB%E5%86%B3%E8%B5%9B%E7%BE%8E%E5%9B%BDvs%E6%84%8F%E5%A4%A7%E5%88%A9" target="_blank" class="news-link">女网世界杯总决赛美国vs意大利</a> [6] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mpI4tdjWA9" target="_blank" class="news-link">美国政府10月1日面临关门危机，民主党领袖要求与特朗普会面</a> [8] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">4</td>
+                <td class="percentage">1.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952778217569089443" target="_blank" class="news-link">网友用 iPhone 17 解锁「吐舌头刷视频」，怎样看待这种方式？还有哪些新玩法？</a> [9] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552400551070142003/" target="_blank" class="news-link">最贵iPhone 17 Pro Max卖爆</a> [16] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2243028" target="_blank" class="news-link">第一批收到iPhone 17的人来了</a> [21] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%2017%E7%B3%BB%E5%88%97%E6%8B%86%E8%A7%A3" target="_blank" class="news-link">iPhone 17系列拆解</a> [29] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952087381579632727" target="_blank" class="news-link">OpenAI 在 ICPC 世界总决赛获得金牌，向我们释放了什么信号?</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2151060" target="_blank" class="news-link">OpenAI领衔！AI热潮下美国“七大科技初创”总估值达1.3万亿美元</a> [12] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E5%BC%80%E5%A7%8B%E9%97%B9%E6%83%85%E7%BB%AA+%E6%89%93%E5%B7%A5%E4%BA%BA%E5%8F%8D%E5%90%91%E5%85%B1%E6%83%85" target="_blank" class="news-link">AI开始闹情绪 打工人反向共情</a> [9] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755979" target="_blank" class="news-link">中国科技股&quot;狂飙&quot;：AI加速驱动下，恒科今年大幅跑赢纳斯达克</a> [9] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952104083063309302" target="_blank" class="news-link">谷歌试图说服 YouTube 用户弃用广告拦截器，这背后原因有哪些？</a> [18] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
