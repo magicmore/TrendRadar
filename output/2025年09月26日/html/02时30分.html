@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-26 02:30:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31680583" target="_blank" class="news-link">李强会见美国盖茨基金会主席比尔·盖茨</a> [9] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554024426774724662/" target="_blank" class="news-link">你怎么看保加利亚男排击败美国队</a> [17] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554024384738889258/" target="_blank" class="news-link">福建舰电磁弹射成功 美国口风变了吗</a> [19] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345293&amp;amp;topic_name=%E6%9C%89%E8%BE%90%E5%90%8C%E4%BA%AB%21%E6%97%A5%E6%9C%AC%E6%AC%B2%E5%B0%86%E6%A0%B8%E6%B1%A1%E6%9F%93%E5%9C%9F%E5%86%8D%E5%88%A9%E7%94%A8" target="_blank" class="news-link">有辐同享!日本欲将核污染土再利用</a> [25] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2155961" target="_blank" class="news-link">【每日收评】创业板指与科创50双双涨超1%，AI产业链集体走强，可控核聚变概念异军突起</a> [7] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2156087" target="_blank" class="news-link">【焦点复盘】AI软硬件合力做多，创业板指录得日线四连涨，“宁王”总市值反超贵州茅台</a> [8] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756233" target="_blank" class="news-link">短短几分钟，AI轻松通过了CFA三级考试</a> [10] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2156487" target="_blank" class="news-link">雷军自曝曾对SU7“信心不足”：拆解三辆特斯拉Model Y 寄望小米YU7</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E7%89%B9%E6%96%AF%E6%8B%89%E7%A2%BE%E5%8E%8B%E5%B9%BC%E7%AB%A5%E6%A1%88%E4%BA%8C%E5%AE%A1%E7%BB%B4%E6%8C%81%E5%8E%9F%E5%88%A4" target="_blank" class="news-link">成都特斯拉碾压幼童案二审维持原判</a> [24] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%EF%BC%9A%E5%B0%8F%E7%B1%B317%E7%94%B5%E9%87%8F%E5%87%A0%E4%B9%8E%E6%98%AFiPhone17%E4%B8%A4%E5%80%8D" target="_blank" class="news-link">雷军：小米17电量几乎是iPhone17两倍</a> [15] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553944732918074921/" target="_blank" class="news-link">雷军称小米17续航是iPhone17的两倍</a> [22] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756174" target="_blank" class="news-link">科技继续拖累，三大美股指两连跌，中概股大反弹，人民币失守7.13，伦铜一年新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%AE%87%E5%AE%99%E9%97%AA%E7%83%81%E8%AF%B7%E6%B3%A8%E6%84%8F&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26pos%3D31%26realpos%3D30%26q%3D%25E5%25AE%2587%25E5%25AE%2599%25E9%2597%25AA%25E7%2583%2581%25E8%25AF%25B7%25E6%25B3%25A8%25E6%2584%258F%26dgr%3D0%26c_type%3D31%26filter_type%3Drealtimehot%26cate%3D5001%26band_rank%3D30%26lcate%3D5001%26flag%3D1%26display_time%3D1758823832%26pre_seqid%3D175882383217702361898122" target="_blank" class="news-link">宇宙闪烁请注意</a> [30] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
