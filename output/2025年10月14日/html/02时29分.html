@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-14 02:29:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nQ4IcS0Qrd" target="_blank" class="news-link">中国出招反制巴基斯坦向美国出口稀土？外交部回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E5%9B%BD3%E5%B2%81%E7%94%B7%E5%AD%A9%E8%A2%AB%E5%9D%A0%E8%90%BD%E7%9B%B4%E5%8D%87%E6%9C%BA%E7%A0%B8%E4%BC%A4%E8%84%91%E8%82%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D8%26stream_entry_id%3D31%26lcate%3D5001%26flag%3D0%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26q%3D%2523%25E7%25BE%258E%25E5%259B%25BD3%25E5%25B2%2581%25E7%2594%25B7%25E5%25AD%25A9%25E8%25A2%25AB%25E5%259D%25A0%25E8%2590%25BD%25E7%259B%25B4%25E5%258D%2587%25E6%259C%25BA%25E7%25A0%25B8%25E4%25BC%25A4%25E8%2584%2591%25E8%2582%25BA%2523%26pos%3D8%26cate%3D5001%26band_rank%3D8%26display_time%3D1760378380%26pre_seqid%3D176037838051603722912158" target="_blank" class="news-link">美国3岁男孩被坠落直升机砸伤脑肺</a> [8] <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%EF%BC%9A%E2%80%9C%E6%88%98%E6%96%A7%E2%80%9D%3D%E6%A0%B8%E6%AD%A6%E5%99%A8%3D%E7%BE%8E%E5%9B%BD%E4%B8%8B%E5%9C%BA" target="_blank" class="news-link">俄罗斯：“战斧”=核武器=美国下场</a> [10] <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2168045" target="_blank" class="news-link">百亿私募大佬“上岸”？跨界买下美国私立高中</a> [12] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">美股三大股指集体高开，博通涨超8%，科技股集体反弹，热门中概股普涨，黄金续创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2167830" target="_blank" class="news-link">荷兰核心子公司骤然“失控” 闻泰科技：半导体80%产能在国内</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2167757" target="_blank" class="news-link">【焦点复盘】科技、资源股携手做多，沪指近百点反攻坚守3800点，科创芯片龙头时隔1年多再获涨停</a> [9] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757056" target="_blank" class="news-link">超预期！中国9月以美元计价出口同比增长8.3%，进口同比增7.4% 工业机器人和风电出口增长强劲</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2167942" target="_blank" class="news-link">聚焦稀土、机器人等27个领域 摩根大通启动1.5万亿美元投融资项目</a> [11] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=OpenAI%E6%88%96%E5%B0%86%E6%88%90%E4%B8%BA%E6%9C%80%E5%A4%A7%E7%9A%84%E6%97%A0%E4%BA%BA%E5%85%AC%E5%8F%B8" target="_blank" class="news-link">OpenAI或将成为最大的无人公司</a> [21] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2268904" target="_blank" class="news-link">库克抖音官宣iPhone Air中国发售</a> [13] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757070" target="_blank" class="news-link">高盛大幅上调阿里未来三年资本开支预测至4600亿：云业务国际化被低估，AI支出转化正重塑增长！</a> [7] <font color='grey'>- 02时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
